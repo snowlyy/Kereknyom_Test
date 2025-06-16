@@ -8,47 +8,40 @@ A **Keréknyom** egy full-stack webalkalmazás, amely lehetővé teszi, hogy aut
 
 - Autós posztok létrehozása képpel és leírással
 - Értékelés több szempont szerint:
-  - Teljesítmény, megbízhatóság, kényelem, szervizélmény, stb.
+  - Teljesítmény, megbízhatóság, kényelem, fenntartási költség, stb.
 - Kommentelés a bejegyzések alatt
-- Posztok listázása, részletes nézet
-- Rendezés teljesítmény / megbízhatóság alapján
+- Posztok listázása és részletes megtekintése
+- Szűrés vagy rendezés teljesítmény / megbízhatóság alapján
 
 ---
 
 ## 🛠️ Tech Stack
-* [![Angular][Angular.io]][Angular-url]
 
 | Technológia       | Leírás                        |
 |-------------------|-------------------------------|
 | Frontend          | Angular 17                    |
 | Backend           | Spring Boot 3.x (Java 17)     |
-| Adatbázis         | PostgreSQL 15 / H2            |
+| Adatbázis         | H2 (fejlesztéshez), PostgreSQL (később) |
 | API               | REST + Swagger UI             |
 
+---
+
+## 📦 Projektstruktúra
 
 
 ---
 
-## 🚀 Telepítés fejlesztői környezetben
+## 🚀 Telepítés és futtatás fejlesztői környezetben
 
 ### 1. Backend (Spring Boot)
+
+#### Előkészületek:
+
+- Java 17+
+- Maven 3.8+
+
+#### Parancsok:
 
 ```bash
 cd backend
 ./mvnw spring-boot:run
-Elérés: http://localhost:8080
-Swagger UI: http://localhost:8080/swagger-ui/index.html
-
-🌱 További tervek
-Felhasználói bejelentkezés (JWT)
-
-Admin panel
-
-Képfeltöltés fájlrendszerbe vagy felhőbe (pl. Cloudinary)
-
-Mobiloptimalizálás
-
-
-
-📄 License
-Ez a projekt gyakorlati célra készült, nem kereskedelmi felhasználásra.
