@@ -16,6 +16,7 @@ A **Keréknyom** egy full-stack webalkalmazás, amely lehetővé teszi, hogy aut
 ---
 
 ## 🛠️ Tech Stack
+* [![Angular][Angular.io]][Angular-url]
 
 | Technológia       | Leírás                        |
 |-------------------|-------------------------------|
@@ -24,15 +25,6 @@ A **Keréknyom** egy full-stack webalkalmazás, amely lehetővé teszi, hogy aut
 | Adatbázis         | PostgreSQL 15 / H2            |
 | API               | REST + Swagger UI             |
 
-
----
-
-## 📦 Projektstruktúra
-
-keréknyom/
-├── backend/ # Spring Boot API
-├── frontend/ # Angular app
-└── README.md
 
 
 ---
